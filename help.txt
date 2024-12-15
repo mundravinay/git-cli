@@ -1,0 +1,7 @@
+Command 
+
+Go to  Terminal and open git bash  
+ git init                               // initializes 
+ git add<filename>                      // Add files to version controlling 
+ git add .                              // Add all the files
+ git commit -m "First commit"           // 

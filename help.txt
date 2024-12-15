@@ -1,7 +1,10 @@
 Command 
 
 Go to  Terminal and open git bash  
- git init                               // initializes 
- git add<filename>                      // Add files to version controlling 
- git add .                              // Add all the files
+ git config --global user.email "vinay.mundra@vpnglobal.co.uk"      //Tell your local git your email 
+ git config --global user.name "mundravinay"                        //Tell your local git your name 
+ git init                                                           // initializes 
+ git add<filename>                                                  // Add files to version controlling 
+ git add .                                                          // Add all the files
+
  git commit -m "First commit"           // 

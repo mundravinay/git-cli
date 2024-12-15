@@ -7,4 +7,12 @@ Go to  Terminal and open git bash
  git add<filename>                                                  // Add files to version controlling 
  git add .                                                          // Add all the files
 
- git commit -m "First commit"           // 
+ git commit -m "First commit"                                       // Commit / Store all the chnages to local repositry 
+ git log                                                            // show the history of your commit 
+ git log --oneline                                                  // show the history of your commit 
+
+ git remote add origin https://github.com/mundravinay/git-cli.git   // adds the remote orgin 
+ git remote -v                                                      // will show the remote repo links ( no code changes)
+ git push origin master
+ git pull origin < branchname>                                      // puuls the latest chnages from remote branchname
+ git checkout -b newbranch
